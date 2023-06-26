@@ -24,6 +24,26 @@ declare module "react-native-size-matters" {
         scaleY?: string | number;
         translateX?: string | number;
         translateY?: string | number;
+        
+        padding?: string | number;
+        paddingHorizontal?: string | number;
+        paddingVertical?: string | number;
+        paddingTop?: string | number;
+        paddingBottom?: string | number;
+        paddingRight?: string | number;
+        paddingLeft?: string | number;
+
+        margin?: string | number;
+        marginBottom?: string | number;
+        marginHorizontal?: string | number;
+        marginVertical?: string | number;
+        marginRight?: string | number;
+        marginLeft?: string | number;
+        marginTop?: string | number;
+
+        
+        height?: string | number;
+        width?: string | number;
     }
 
     export function scale(size: number): number;
